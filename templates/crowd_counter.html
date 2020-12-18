@@ -1,0 +1,13 @@
+{% extends "main.html" %}
+
+{%block content%}
+<div class="Container">
+  <div class="jumbotron">
+<h1 class="display-4">Crowd Counter!</h1>
+<p class="lead">It gives number of approximate number of people in the Crowd.</p>
+
+</div>
+  <img src="{{ url_for('crowd_feed') }}">
+
+</div>
+{% endblock %}

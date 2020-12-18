@@ -1,0 +1,14 @@
+{% extends "main.html" %}
+
+{%block content%}
+
+<div class="Container">
+  <div class="jumbotron">
+<h1 class="display-4">Social detection detector!</h1>
+<p class="lead">It detects the number of social distance violations between people.</p>
+
+</div>
+  <img src="{{ url_for('social_feed') }}">
+
+</div>
+{% endblock %}

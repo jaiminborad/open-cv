@@ -1,0 +1,14 @@
+{% extends "main.html" %}
+
+{%block content%}
+
+<div class="Container">
+  <div class="jumbotron">
+<h1 class="display-4">Motion detection!</h1>
+<p class="lead">It detects the motion of the people.</p>
+
+</div>
+  <img src="{{ url_for('motion_feed') }}">
+
+</div>
+{% endblock %}

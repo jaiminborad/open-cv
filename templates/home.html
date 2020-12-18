@@ -1,0 +1,35 @@
+{% extends "main.html" %}
+
+{%block content%}
+
+<div class="jumbotron">
+    <h1 class="display-4">Open-cv projects!</h1>
+    <p class="lead">This project shows different application of open-cv and show some various project like motion detection ,social distance detection and crowd detection.</p>
+  
+  </div>
+      <div class="card-group">
+      <div class="card">
+        <img src="./static/2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><a href="motion_detection.html">Motion Detection</a></h5>
+          <p class="card-text">It detect the motion of the people.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./static/1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><a href="social_detection_detector.html">Social Distance Detection</a></h5>
+          <p class="card-text">It detects the number of social distance violations between people.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./static/3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><a href="crowd_counter.html">Crowd Detection</a></h5>
+          <p class="card-text">It gives number of approximate number of people in the Crowd.</p>
+        </div>
+      </div>
+  
+  
+    </div>
+    {% endblock %}
